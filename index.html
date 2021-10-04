@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#/home">HOME</a>
+        <!--  <a href="#/about">ABOUT</a>
+     <a href="#">PRODUCTS</a>
+        <a href="#">GAMES</a> -->
+        <!-- <a href="#">CONTACT</a> -->
+        <a id="showModal" href="#/login">Login</a>
+    </nav>
+    <div class="wrapper">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nobis expedita modi dolore sed veritatis
+            impedit praesentium voluptatum nihil laudantium iure possimus blanditiis, harum cumque, optio at
+            consequuntur delectus dolorum.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum impedit natus tempore! Adipisci quod deserunt
+            alias vitae, rerum hic! Minus qui saepe blanditiis ullam quis a exercitationem asperiores! Explicabo, est.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi reiciendis, quas iste accusantium excepturi
+            dolorem eaque omnis, praesentium autem voluptas rem expedita sint, sequi maxime! Quae, natus. Ipsam, ut
+            laborum.
+        </p>
+        <div class="imageDiv">
+            <img src="./images/b.jpg" alt="fruit">
+        </div>
+
+
+    </div>
+
+    <div class="modal">
+        <div class="bg-click"></div>
+        <div class="callout">
+            <!-- <input type="text" id="callout-text" />
+            <input type="submit" id="submit" value="submit" /> -->
+            <form>
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <div class="bottom-container">
+                    <div class="row">
+                        <div class="col">
+                            <button type="submit" class="submitbtn">Login</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="cancelbtn">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script src="lib/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="app/app.js"></script>
+</body>
+
+</html>

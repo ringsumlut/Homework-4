@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 16px;
+  }
+  
+  nav {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .wrapper {
+    padding: 30px;
+    
+  }
+  p{
+text-align: center;
+  }
+  .imageDiv {
+      width: 500px;
+      height: 500px;
+      align-items: center;
+      padding: 30px;
+      margin: 0 auto;
+  }
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+}
+img:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+  .modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* animation: fadeIn 2s;
+    animation-timing-function: ease-in-out; */
+  }
+  .bg-click {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.8);
+  }
+  
+  .callout {
+    position: relative;
+    z-index: 99;
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+  }
+
+  /* Login Form */
+
+  label {
+    padding-left: 20px;
+   
+  }
+form {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .col {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+  }
+    
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  button {
+    background-color: #3de369;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    opacity: 0.7;
+  }
+  .cancelbtn {
+    background-color: #f44336;
+  }
+
+  /* Home Page */
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  
